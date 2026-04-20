@@ -1,0 +1,22 @@
+# Python execution cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & OS specifics
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Auto-generated static files (uncomment if you want people to compile this file themselves)
+# data.js

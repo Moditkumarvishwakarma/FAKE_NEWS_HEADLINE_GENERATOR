@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-container">
+        <header>
+            <div class="badge">Breaking News</div>
+            <h1>Daily <span class="highlight">Gossip</span></h1>
+            <p class="subtitle">The headlines you never knew you needed.</p>
+        </header>
+
+        <main>
+            <div class="headline-box">
+                <p id="headline">Click the button below to generate breaking news.</p>
+            </div>
+            
+            <button id="generateBtn" class="primary-btn">
+                <span class="btn-text">Generate Headline</span>
+                <svg class="sparkle" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 2L11.79 7.37L17 9.16L11.79 10.95L10 16.32L8.21 10.95L3 9.16L8.21 7.37L10 2Z" fill="currentColor"/>
+                    <path d="M19.5 13L20.395 15.685L23 16.58L20.395 17.475L19.5 20.16L18.605 17.475L16 16.58L18.605 15.685L19.5 13Z" fill="currentColor"/>
+                </svg>
+            </button>
+        </main>
+
+        <footer>
+            <p>Made for fun. Not an actual news source.</p>
+        </footer>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
